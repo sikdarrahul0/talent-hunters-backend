@@ -23,7 +23,6 @@ const storage = multer.diskStorage({
 multerHandler.upload = multer({
   storage: storage,
   fileFilter(req, file, cb) {
-    console.log(file.mimetype);
     if (file.mimetype === "application/pdf") {
       cb(null, true);
     } else {

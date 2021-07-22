@@ -1,3 +1,4 @@
+const fs = require("fs");
 // internal imports
 const Candidate = require("../models/Candidate");
 

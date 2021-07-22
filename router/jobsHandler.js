@@ -33,6 +33,6 @@ router.get("/employer/:id", employerJob);
 router.get("/approved/post/:id", selectedJobs);
 
 // delete single job
-router.delete("/deleteJob/:id", deleteJob);
+router.delete("/delete/:id", deleteJob);
 
 module.exports = router;

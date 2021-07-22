@@ -40,12 +40,12 @@ const login = async (req, res) => {
         res.status(200).json(user[0]);
       } else {
         res.status(401).json({
-          error: "Incorrect username!. Please try again",
+          error: "Incorrect password!. Please try again",
         });
       }
     } else {
       res.status(401).json({
-        error: "Incorrect password!. Please try again",
+        error: "Incorrect username!. Please try again",
       });
     }
   } catch (err) {
