@@ -13,7 +13,7 @@ This is a complete job management solution where employers can easily post their
 The features added in the project are given below:
 
 		★ Shows different types of jobs on the ‘home page’ by different selectings.
-    ★ Admin can approve or remove job posts.
+           ★ Admin can approve or remove job posts.
 		★ Proper Authentication system.
 		★ Employers,Candidates & Admin different access.
 		
